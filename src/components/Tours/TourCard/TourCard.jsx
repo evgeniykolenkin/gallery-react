@@ -24,7 +24,7 @@ function TourCard(props) {
         )}
       </div>
       <img src={props.img} alt={props.title} />
-      <Heading class="tours__title heading__h2" level="h2" text={props.title} />
+      <Heading class="heading__h2" level="h2" text={props.title} />
     </div>
   );
 }

@@ -34,18 +34,7 @@
   width: 100%;
 }
 
-.tours__title {
-  position: absolute;
-  left: 40px;
-  bottom: 40px;
-}
-
 @media (max-width: 800px) {
-  .tours__title {
-    left: 20px;
-    bottom: 20px;
-  }
-
   .tours__signs {
     top: 20px;
     left: 20px;
