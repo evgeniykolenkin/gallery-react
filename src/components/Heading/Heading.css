@@ -1,0 +1,26 @@
+.heading__h1 {
+  color: #181818;
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 74.818px;
+  letter-spacing: -3.2px;
+  margin-bottom: 33px;
+}
+
+.heading__h2 {
+  color: #fffef4;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 42.085px;
+  letter-spacing: -1.8px;
+}
+
+@media (max-width: 800px) {
+  .heading__h1 {
+    font-size: 50px;
+  }
+
+  .heading__h2 {
+    font-size: 25px;
+  }
+}

@@ -1,0 +1,58 @@
+.tours__card {
+  position: relative;
+}
+
+.tours__signs {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  display: flex;
+  color: #181818;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14.964px;
+  letter-spacing: -0.64px;
+  text-transform: uppercase;
+}
+
+.tours__signs-way,
+.tours__signs-members {
+  padding: 15px 20px;
+  border-radius: 100px;
+  background: #fff59d;
+}
+
+.tours__signs-members {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+}
+
+.tours__card img {
+  width: 100%;
+}
+
+.tours__title {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+}
+
+@media (max-width: 800px) {
+  .tours__title {
+    left: 20px;
+    bottom: 20px;
+  }
+
+  .tours__signs {
+    top: 20px;
+    left: 20px;
+  }
+
+  .tours__signs-way,
+  .tours__signs-members {
+    padding: 10px 15px;
+  }
+}

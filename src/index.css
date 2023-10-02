@@ -1,0 +1,21 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Arimo", sans-serif;
+  background-color: #fffef4;
+}
+
+.container {
+  width: 1150px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+}
