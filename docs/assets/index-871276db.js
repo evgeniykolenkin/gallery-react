@@ -9089,10 +9089,10 @@ function Ud(e) {
     ],
   });
 }
-const $d = "/assets/tourImg1-db2bc138.png",
-  Vd = "/assets/tourImg2-24439349.png",
-  Ad = "/assets/tourImg3-991d358d.png",
-  Bd = "/assets/tourImg4-f048ff85.png",
+const $d = "assets/tourImg1-db2bc138.png",
+  Vd = "assets/tourImg2-24439349.png",
+  Ad = "assets/tourImg3-991d358d.png",
+  Bd = "assets/tourImg4-f048ff85.png",
   Hd = [
     {
       id: wr(),
